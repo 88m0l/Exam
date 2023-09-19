@@ -8,13 +8,7 @@ import '../sass/landing-page-egypt.scss'
 import '../sass/landing-page-turkish.scss'
 import '../../node_modules/swiper/swiper-bundle.js'
 
-// $(function() {
-//   $('.nav-item').onclick(function(){
-//     $('.nav-item').removeClass('active');
-//     $(this).addClass('active');
 
-// });
-// });
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
@@ -40,3 +34,8 @@ var date = new Date();
 var year = date.getFullYear();
 document.getElementById("date").innerHTML = year;
 
+$(document).ready(function(){
+  $("#button").click(function(){
+    $("#discover").fadeIn(3000);
+  });
+});
