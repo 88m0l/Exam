@@ -1,0 +1,118 @@
+@import './varibales';
+
+section{
+    &.cards{
+        background-color: rgba($color: transparent, $alpha: .30);
+        .container{
+            .row{
+                .col-md-4,
+                .col-md-8{
+                    .content{
+                        position: relative;
+                        .place{
+                            position: absolute;
+                            top: 26px;
+                            right: 26px;
+                            width: 80px;
+                            height: 25px;
+                            color: #fff;
+                            background-color: rgba($color: #749dda, $alpha: .80);
+                        }
+                        img{
+                            height: 270px;
+                            padding: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.card{
+        background: #ffffff;
+        border-radius: 0;
+        padding: 50px 0 ;
+        .container{
+            padding: 10px 0;
+            .row{
+                .col-lg-6{
+                    padding: 10px 0;
+                    background-color: rgba($color: transparent, $alpha: .30);
+                    .content{
+                        padding-top: 8px;
+                        // img{
+                        // }
+                    }
+                    button{
+                        &:hover > a{
+                            color: #fff;
+                        }
+                        a{
+                            text-decoration: none;
+                            color:#6C757D;
+                        }
+                    }
+                }
+                .col-12{
+                    background-color: rgba($color: transparent, $alpha: .30);
+                    padding-bottom:12px;
+                    #carouselExampleAutoplaying,
+                    #carouselAutoplaying{
+                        margin: auto;
+                        width: 97%;
+                        height: 400px;
+                        span{
+                            position: absolute;
+                            top: 5px;
+                            right: 5x;
+                            font-size: 20px;
+                            z-index: 5;
+                            background-color: rgba($color: #000, $alpha: .40);
+                            color: #f1f0f0;
+                            padding: 2px 4px;
+                        }
+                        .span{
+                            position: absolute;
+                            top: 5px;
+                            right: 10px;
+                        }
+                        .carousel-inner{
+                            width: 100%;
+                            height: 100%;
+                            .carousel-item{
+                                img{
+                                    width: 100%;
+                                    height: 500px;
+                                }
+                            }
+                        }
+                        button{
+                            margin: auto;
+                            height: 40px;
+                            width: 40px;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    section{
+        &#cards-t{
+            padding: 0 10px;
+        }
+        &#card-t{
+            padding: 0 10px;
+            .container{
+                .row{
+                    .col-lg-6{
+                        padding: 0 10px !important;
+                    }
+                }
+            }
+        }
+        &#contact-t{
+            padding: 0 10px;
+        }
+    }
+}
