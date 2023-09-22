@@ -141,6 +141,43 @@ main{
                 }
             }
         }
+        &.accordion-section{
+            padding: 100px 0 150px;
+            background-color: #8ab7c5;
+            .container{
+                .row{
+                    h1{
+                        padding-bottom: 50px;
+                    }
+                    .col-md-6{
+                        img{
+                            width: 100%;
+                            opacity: .5;
+                        }
+                    }
+                    .col-md-6{
+                        .accordion{
+                            .accordion-item{
+                                .accordion-header{
+                                    button{
+                                        font-weight: 800;
+                                        background-color: #727575;
+                                        color: #fff;
+                                        .svg-inline--fa{
+                                            opacity:0 ;
+                                        }
+                                    }
+                                }
+                                .accordion-collapse{
+                                    background-color: #888d8f;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
