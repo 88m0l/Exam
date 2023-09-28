@@ -1,0 +1,129 @@
+// section{
+//     &.contact{
+//         padding: 40px 20px;
+//         .container{
+//             .row, .row > *{
+//                 padding-right: 0 !important;
+//                 padding-left: 0 !important;
+//                 .col-md-6{
+//                     background: rgba($color: #868E96, $alpha: .70);
+//                     .content{
+//                         width: 100%;
+//                         height:500px !important;
+//                         iframe{
+//                             width: 100% !important;
+//                             min-height: 100% !important;
+//                             padding: 0 !important;
+//                         }
+//                     }
+//                     .col-md-6{
+//                         .contents{
+//                             form{
+//                                 .content1{
+//                                     .row{
+//                                         .col-md-6{
+//                                             input{
+//                                                 background-color: transparent;
+//                                                 border: none;
+//                                                 border-bottom: 3px solid #000;
+//                                             }
+//                                         }
+//                                     }
+//                                 }
+//                             }
+//                         }    
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+@import './varibales';
+section{
+    &.contact{
+        padding: 50px 20px;
+        .container{
+             .row {
+                .col-md-6{
+                    .content{
+                        width: 100%;
+                        height: 500px ;
+                        iframe{
+                            width: 100% !important;
+                            height: 100% !important;
+                            padding: calc(var(--bs-gutter-x) * 0.5) 0;
+                        }
+                    }
+                }
+                .col-md-6{
+                    background: #92b3b1;
+                    form{
+                        h2{
+                            font-size: 30px;
+                            font-weight: 700;
+                            text-align: start;
+                            padding: 20px;
+                        }
+                        .row{
+                            .col-sm-6{
+                                .content1{
+                                    padding: 20px 0;
+                                    input{
+                                        @include input;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .col-md-12{
+                                .content1{
+                                    padding: 20px 0;
+                                    label{
+                                        padding-bottom: 20px;
+                                    }
+                                    input{
+                                        @include input;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .col-md-12{
+                                .content2{
+                                    h2{
+                                        font-size: 30px;
+                                        font-weight: 700;
+                                        text-align: start;
+                                        padding: 20px;
+                                        width: 20%;
+                                    }
+                                    ul{
+                                        margin:-20px auto 0;
+                                        li{
+                                            list-style: none;
+                                            a{
+                                                padding-right: 10px;
+                                                font-size: 30px;
+                                                color: #fff;
+                                                text-decoration: none;
+                                                &:hover:nth-child(1){
+                                                    color: rgb(190, 17, 190);
+                                                }
+                                                &:hover:nth-child(2){
+                                                    color: #1C9CEA;
+                                                }
+                                                &:hover:nth-child(3){
+                                                    color: #4064AC;
+                                                }
+                                                &:hover:nth-child(4){
+                                                    color: #FF0000;
+                                                }
+                                            }                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }    
+                }
+            }            
+        }
+    }
+}

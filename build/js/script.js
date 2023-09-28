@@ -751,7 +751,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695412243622\n      var cssReload = __webpack_require__(/*! ../../../mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./node_modules/bootstrap/dist/css/bootstrap.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695924256511\n      var cssReload = __webpack_require__(/*! ../../../mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./node_modules/bootstrap/dist/css/bootstrap.css?");
 
 /***/ }),
 
@@ -762,7 +762,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695412243562\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/Our_services.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695929719623\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/Our_services.scss?");
+
+/***/ }),
+
+/***/ "./src/sass/contact.scss":
+/*!*******************************!*\
+  !*** ./src/sass/contact.scss ***!
+  \*******************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695931702419\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/contact.scss?");
 
 /***/ }),
 
@@ -773,7 +784,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695412243598\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/landing-page-egypt.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695932975499\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/landing-page-egypt.scss?");
 
 /***/ }),
 
@@ -784,7 +795,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695412658754\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/landing-page-turkish.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695933497658\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/landing-page-turkish.scss?");
 
 /***/ }),
 
@@ -795,7 +806,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695412243608\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/style.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695930510160\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/style.scss?");
 
 /***/ }),
 
@@ -806,7 +817,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695412243584\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/trips.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1695929719614\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"../\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://exam/./src/sass/trips.scss?");
 
 /***/ }),
 
@@ -1032,7 +1043,7 @@ eval("/** @typedef {\"info\" | \"warning\" | \"error\"} LogLevel */\n\n/** @type
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/bootstrap/dist/js/bootstrap.js */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_bootstrap_dist_js_bootstrap_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var _node_modules_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/@fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\");\n/* harmony import */ var _node_modules_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _sass_Our_services_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sass/Our_services.scss */ \"./src/sass/Our_services.scss\");\n/* harmony import */ var _sass_trips_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sass/trips.scss */ \"./src/sass/trips.scss\");\n/* harmony import */ var _sass_landing_page_egypt_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sass/landing-page-egypt.scss */ \"./src/sass/landing-page-egypt.scss\");\n/* harmony import */ var _sass_landing_page_turkish_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../sass/landing-page-turkish.scss */ \"./src/sass/landing-page-turkish.scss\");\n/* harmony import */ var _node_modules_swiper_swiper_bundle_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../node_modules/swiper/swiper-bundle.js */ \"./node_modules/swiper/swiper-bundle.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// Example starter JavaScript for disabling form submissions if there are invalid fields\r\n(() => {\r\n  'use strict'\r\n\r\n  // Fetch all the forms we want to apply custom Bootstrap validation styles to\r\n  const forms = document.querySelectorAll('.needs-validation')\r\n\r\n  // Loop over them and prevent submission\r\n  Array.from(forms).forEach(form => {\r\n    form.addEventListener('submit', event => {\r\n      if (!form.checkValidity()) {\r\n        event.preventDefault()\r\n        event.stopPropagation()\r\n      }\r\n\r\n      form.classList.add('was-validated')\r\n    }, false)\r\n  })\r\n})()\r\n\r\nvar date = new Date();\r\nvar year = date.getFullYear();\r\ndocument.getElementById(\"date\").innerHTML = year;\r\n\r\n$(document).ready(function(){\r\n  $(\"#button\").click(function(){\r\n    $(\"#discover\").fadeIn(3000);\r\n  });\r\n});\n\n//# sourceURL=webpack://exam/./src/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/bootstrap/dist/js/bootstrap.js */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_bootstrap_dist_js_bootstrap_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var _node_modules_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/@fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\");\n/* harmony import */ var _node_modules_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _sass_Our_services_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sass/Our_services.scss */ \"./src/sass/Our_services.scss\");\n/* harmony import */ var _sass_trips_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sass/trips.scss */ \"./src/sass/trips.scss\");\n/* harmony import */ var _sass_landing_page_egypt_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sass/landing-page-egypt.scss */ \"./src/sass/landing-page-egypt.scss\");\n/* harmony import */ var _sass_landing_page_turkish_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../sass/landing-page-turkish.scss */ \"./src/sass/landing-page-turkish.scss\");\n/* harmony import */ var _sass_contact_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../sass/contact.scss */ \"./src/sass/contact.scss\");\n/* harmony import */ var _node_modules_swiper_swiper_bundle_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../node_modules/swiper/swiper-bundle.js */ \"./node_modules/swiper/swiper-bundle.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// Example starter JavaScript for disabling form submissions if there are invalid fields\r\n(() => {\r\n  'use strict'\r\n\r\n  // Fetch all the forms we want to apply custom Bootstrap validation styles to\r\n  const forms = document.querySelectorAll('.needs-validation')\r\n\r\n  // Loop over them and prevent submission\r\n  Array.from(forms).forEach(form => {\r\n    form.addEventListener('submit', event => {\r\n      if (!form.checkValidity()) {\r\n        event.preventDefault()\r\n        event.stopPropagation()\r\n      }\r\n\r\n      form.classList.add('was-validated')\r\n    }, false)\r\n  })\r\n})()\r\n\r\nvar date = new Date();\r\nvar year = date.getFullYear();\r\ndocument.getElementById(\"date\").innerHTML = year;\r\n\r\n$(document).ready(function(){\r\n  $(\"#button\").click(function(){\r\n    $(\"#discover\").fadeIn(3000);\r\n  });\r\n});\n\n//# sourceURL=webpack://exam/./src/js/script.js?");
 
 /***/ }),
 
@@ -1141,7 +1152,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/**\n * Swiper 10.2.0\n * Mos
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("98d7721092194b5e841f")
+/******/ 		__webpack_require__.h = () => ("141b8053c133a674bbea")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

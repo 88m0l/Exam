@@ -12511,9 +12511,11 @@ main section.begining .content h5 {
 main section.begining .content button {
   position: absolute;
   top: 75%;
-  left: 30%;
+  right: 50%;
+  transform: translate(50%);
   border: 2px #0DCAF0 solid;
   color: #0DCAF0;
+  padding: 10px;
 }
 main section.begining .content button:hover {
   color: #fff;
@@ -12622,94 +12624,6 @@ main section.definition .container-fluid .row .col-12 ol {
 main section.definition .container-fluid .row .col-12 ol li {
   line-height: 30px;
 }
-main section.contact {
-  background-color: rgba(108, 117, 125, 0.3);
-  width: 80%;
-  margin: auto;
-  margin-top: -12px;
-  padding: 20px 27px;
-  border-radius: 15px;
-}
-main section.contact h2 {
-  padding: 10px 10px;
-  font-weight: 700 !important;
-  position: relative;
-}
-main section.contact h2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 5px;
-  height: 100%;
-  background-color: #17657c;
-}
-main section.contact .container .row .col-md-3 .content {
-  padding: 20px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  border-radius: 5px;
-  direction: ltr;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: clip;
-  transition: all 0.5s ease;
-}
-main section.contact .container .row .col-md-3 .content:hover {
-  transform: scale(1.2);
-}
-main section.contact .container .row .col-md-3 .content svg {
-  font-size: 30px;
-  color: #516c88;
-}
-main section.contact .container .row .col-12 {
-  padding: 20px 0;
-}
-main section.contact .container .row .col-12 .row .col-md-6 label {
-  display: block;
-  color: #000;
-  width: 100%;
-  text-align: start;
-  padding: 10px 0;
-}
-main section.contact .container .row .col-12 .row .col-md-6 input {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: rgba(0, 0, 0, 0.3) 2px solid;
-  border-radius: 1px;
-  width: 100%;
-  height: 40px;
-  margin: auto;
-  width: 70%;
-}
-main section.contact .container .row .col-12 .row .col-md-6 input:focus {
-  background-color: #fff;
-  border-color: #fff;
-}
-main section.contact .container .row .col-12 label {
-  display: block;
-  color: #000;
-  width: 100%;
-  text-align: start;
-  padding: 10px 0;
-}
-main section.contact .container .row input {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: rgba(0, 0, 0, 0.3) 2px solid;
-  border-radius: 1px;
-  width: 100%;
-  height: 40px;
-  margin: auto;
-  width: 70%;
-}
-main section.contact .container .row input:focus {
-  background-color: #fff;
-  border-color: #fff;
-}
-main section.contact .container .row button {
-  width: 15%;
-  margin-left: 15%;
-  border-radius: 0;
-  height: 40px;
-}
 
 footer .contaienr-fluid {
   width: 100%;
@@ -12732,39 +12646,41 @@ main .layer .fa-user {
   padding: 14px 0;
 }
 main .layer form .row .col-12 .row .col-md-6 input {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: rgba(0, 0, 0, 0.3) 2px solid;
-  border-radius: 1px;
-  width: 100%;
-  height: 40px;
-  margin: auto;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px solid #000;
+  color: #fff;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
 }
-main .layer form .row .col-12 .row .col-md-6 input:focus {
-  background-color: #fff;
-  border-color: #fff;
+main .layer form .row .col-12 .row .col-md-6 input:focus, main .layer form .row .col-12 .row .col-md-6 input:focus:hover {
+  border: 0;
+  border-bottom: 3px solid #000;
 }
 main .layer form .row .col-12 button {
   width: 100%;
   margin: 40px 0;
 }
 main .layer form .row .col-12 label {
-  padding: 10px 10px;
+  padding: 20px 10px;
   display: block;
 }
 main .layer form .row .col-12 input {
   padding: 15px 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  border: rgba(0, 0, 0, 0.3) 2px solid;
-  border-radius: 1px;
-  width: 100%;
-  height: 40px;
-  margin: auto;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px solid #000;
+  color: #fff;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
   width: 80%;
   margin: 0 10%;
 }
-main .layer form .row .col-12 input:focus {
-  background-color: #fff;
-  border-color: #fff;
+main .layer form .row .col-12 input:focus, main .layer form .row .col-12 input:focus:hover {
+  border: 0;
+  border-bottom: 3px solid #000;
 }
 main .layer form .row .content ul {
   position: relative;
@@ -13148,8 +13064,8 @@ section.begin .layer .container #carouselExampleControls .carousel-inner .carous
   padding-bottom: 10px;
 }
 section.begin .layer .container #carouselExampleControls .carousel-inner .carousel-item .carousel-content a {
-  margin-right: 300px;
   margin-bottom: 100px !important;
+  width: 130px;
 }
 section.begin .layer .container #carouselExampleControls button {
   top: 45% !important;
@@ -13197,37 +13113,37 @@ section.begin-tu .layer {
   width: 100%;
   height: 100%;
 }
-section.begin-tu .layer .row .col-md-6 .container .content {
+section.begin-tu .layer .row .col-md-12 .container .content {
   padding-top: 50px;
 }
-section.begin-tu .layer .row .col-md-6 .container .content h1 {
+section.begin-tu .layer .row .col-md-12 .container .content h1 {
   font-size: 40px;
   font-weight: 800;
   color: #9e9d9d;
   padding-bottom: 10px;
 }
-section.begin-tu .layer .row .col-md-6 .container .content h4 {
+section.begin-tu .layer .row .col-md-12 .container .content h4 {
   font-size: 30px;
   font-weight: 600;
   color: #9e9d9d;
 }
-section.begin-tu .layer .row .col-md-6 .container #carouselExampleControls {
+section.begin-tu .layer .row .col-md-12 .container #carouselExampleControls {
   padding-top: 130px;
 }
-section.begin-tu .layer .row .col-md-6 .container #carouselExampleControls .carousel-inner .carousel-item .carousel-content h2 {
+section.begin-tu .layer .row .col-md-12 .container #carouselExampleControls .carousel-inner .carousel-item .carousel-content h2 {
   color: #ddd;
   padding-bottom: 10px;
 }
-section.begin-tu .layer .row .col-md-6 .container #carouselExampleControls .carousel-inner .carousel-item .carousel-content a {
-  margin-right: 300px;
+section.begin-tu .layer .row .col-md-12 .container #carouselExampleControls .carousel-inner .carousel-item .carousel-content a {
   margin-bottom: 100px !important;
+  width: 130px;
 }
-section.begin-tu .layer .row .col-md-6 .container #carouselExampleControls button {
+section.begin-tu .layer .row .col-md-12 .container #carouselExampleControls button {
   top: 45% !important;
   width: 30px;
   height: 30px;
 }
-section.begin-tu .layer .row .col-md-6 .container #carouselExampleControls button svg {
+section.begin-tu .layer .row .col-md-12 .container #carouselExampleControls button svg {
   font-size: 30px;
 }
 section.content {
@@ -13333,4 +13249,92 @@ section.mid .container-flouid .col-md-6 .carousel {
 section.mid .container-flouid .col-md-6 .carousel .carousel-inner .carousel-item img {
   width: 100% !important;
   max-height: 200px !important;
+}
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/contact.scss ***!
+  \****************************************************************************************************************/
+section.contact {
+  padding: 50px 20px;
+}
+section.contact .container .row .col-md-6 .content {
+  width: 100%;
+  height: 500px;
+}
+section.contact .container .row .col-md-6 .content iframe {
+  width: 100% !important;
+  height: 100% !important;
+  padding: calc(var(--bs-gutter-x) * 0.5) 0;
+}
+section.contact .container .row .col-md-6 {
+  background: #92b3b1;
+}
+section.contact .container .row .col-md-6 form h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: start;
+  padding: 20px;
+}
+section.contact .container .row .col-md-6 form .row .col-sm-6 .content1 {
+  padding: 20px 0;
+}
+section.contact .container .row .col-md-6 form .row .col-sm-6 .content1 input {
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px solid #000;
+  color: #fff;
+  width: 100%;
+}
+section.contact .container .row .col-md-6 form .row .col-sm-6 .content1 input:focus, section.contact .container .row .col-md-6 form .row .col-sm-6 .content1 input:focus:hover {
+  border: 0;
+  border-bottom: 3px solid #000;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content1 {
+  padding: 20px 0;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content1 label {
+  padding-bottom: 20px;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content1 input {
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px solid #000;
+  color: #fff;
+  width: 100%;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content1 input:focus, section.contact .container .row .col-md-6 form .row .col-md-12 .content1 input:focus:hover {
+  border: 0;
+  border-bottom: 3px solid #000;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: start;
+  padding: 20px;
+  width: 20%;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 ul {
+  margin: -20px auto 0;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 ul li {
+  list-style: none;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 ul li a {
+  padding-right: 10px;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 ul li a:hover:nth-child(1) {
+  color: rgb(190, 17, 190);
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 ul li a:hover:nth-child(2) {
+  color: #1C9CEA;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 ul li a:hover:nth-child(3) {
+  color: #4064AC;
+}
+section.contact .container .row .col-md-6 form .row .col-md-12 .content2 ul li a:hover:nth-child(4) {
+  color: #FF0000;
 }

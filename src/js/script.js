@@ -4,9 +4,10 @@ import '../../node_modules/@fortawesome/fontawesome-free/js/all';
 import '../sass/style.scss';
 import '../sass/Our_services.scss';
 import '../sass/trips.scss';
-import '../sass/landing-page-egypt.scss'
-import '../sass/landing-page-turkish.scss'
-import '../../node_modules/swiper/swiper-bundle.js'
+import '../sass/landing-page-egypt.scss';
+import '../sass/landing-page-turkish.scss';
+import '../sass/contact.scss';
+import '../../node_modules/swiper/swiper-bundle.js';
 
 
 
